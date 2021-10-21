@@ -1,73 +1,73 @@
 Comandos Git
 ============
 
-## Versões traduzidas
-- [English version (original)](README.md)
+## Edited from here
+- [https://github.com/joshnh/Git-Commands](README.md)
 
 ___
 
-_Uma lista dos comandos Git mais usados_
-
-*Se você está interessado em meus aliases do Git, dê uma olhada no meu `.bash_profile`, encontrado aqui: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
+_A list of my commonly used Git commands_
 
 --
 
-### Obtendo & Criação de Projetos
+### Getting & Creating Projects
 
-| Comando | Descrição |
+| Command | Description |
 | ------- | --------- |
-| `git init` | Inicializa um repositório Git local |
-| `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` | Cria uma cópia local de um repositório remoto |
+| `git init` | Initialize a local Git repository |
+| `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` | Create a local copy of a remote repository |
 
-### Básicos
+### Basic Snapshotting
 
-| Comando | Descrição |
+| Command | Description |
 | ------- | --------- |
-| `git status` | Checa o status |
-| `git add [nome-arquivo.txt]` | Adiciona um arquivo para área de stage |
-| `git add -A` | Adiciona todos os arquivos novos ou modificados para a área de stage |
-| `git commit -m "[Mensagem de Commit]"` | Comita as alterações |
-| `git rm -r [nome-arquivo.txt]` | Remove um arquivo (ou pasta) |
+| `git status` | Check status |
+| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
 
-| Comando | Descrição |
+| Command | Description |
 | ------- | --------- |
-| `git branch` | Lista as branches (o asterisco denota a branch atual) |
-| `git branch -a` | Lista todas as branches (local e remoto) |
-| `git branch [nome da branch]` | Cria uma nova branch |
-| `git branch -d [nome da branch]` | Deleta uma branch |
-| `git push origin --delete [nome da branch]` | Deleta uma branch remota |
-| `git checkout -b [nome da branch]` | Cria uma nova branch e muda para ela |
-| `git checkout -b [nome da branch] origin/[nome da branch]` | Clona uma branch remota e muda para ela |
-| `git checkout [nome da branch]` | Seleciona uma branch |
-| `git checkout -` | Muda para a última branch |
-| `git checkout -- [nome-arquivo.txt]` | Descarta modificações de um arquivo |
-| `git merge [nome da branch]` | Faz um merge de uma branch na branch atual |
-| `git merge [source branch] [branch alvo]` | Faz um merge de uma branch em outra branch |
-| `git stash` | Tirar o estado sujo do seu diretório de trabalho |
-| `git stash clear` | Remove todas as entradas 'stash' |
+| `git branch` | List branches (the asterisk denotes the current branch) |
+| `git branch -a` | List all branches (local and remote) |
+| `git branch [branch name]` | Create a new branch |
+| `git branch -d [branch name]` | Delete a branch |
+| `git branch -m [old branch name] [new branch name] ` | Rename a local branch |
+| `git push origin --delete [branch name]` | Delete a remote branch |
+| `git checkout -b [branch name]` | Create a new branch and switch to it |
+| `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
+| `git checkout [branch name]` | Switch to a branch |
+| `git checkout -` | Switch to the branch last checked out |
+| `git checkout -- [file-name.txt]` | Discard changes to a file |
+| `git merge [branch name]` | Merge a branch into the active branch |
+| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git stash` | Stash changes in a dirty working directory |
+| `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
 
-| Comando | Descrição |
+| Command | Description |
 | ------- | --------- |
-| `git push origin [nome da branch]` | Enviar uma branch para seu repositório remoto |
-| `git push -u origin [nome da branch]` | Envia as alterações da branch informada para um repositório remoto (and selecionar a branch) |
-| `git push` | Envia as alterações para o repositório remoto (branch atual) |
-| `git push origin --delete [nome da branch]` | Deletar uma branch remota |
-| `git pull` | Atualiza o repositório local para o último commit |
-| `git pull origin [nome da branch]` | Recebe alterações do repositório remoto |
-| `git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Adicionar um repositório remoto |
-| `git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Seta um repositório da origin branch para o SSH |
+| `git push origin [branch name]` | Push a branch to your remote repository |
+| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
+| `git push` | Push changes to remote repository (remembered branch) |
+| `git push origin --delete [branch name]` | Delete a remote branch |
+| `git pull` | Update local repository to the newest commit |
+| `git pull origin [branch name]` | Pull changes from remote repository |
+| `git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Add a remote repository |
+| `git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Set a repository's origin branch to SSH |
 
-### Inspeção & Comparação
+### Inspection & Comparison
 
-| Comando | Descrição |
+| Command | Description |
 | ------- | --------- |
-| `git log` | Ver modificações |
-| `git log --summary` | Ver modificações (detalhadas) |
-| `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
+| `git log` | View changes |
+| `git log --summary` | View changes (detailed) |
+| `git log --oneline` | View changes (briefly) |
+| `git diff [source branch] [target branch]` | Preview changes before merging |
 
 
 
@@ -85,12 +85,11 @@ _Uma lista dos comandos Git mais usados_
 
 
 
-# Useful Git Commands
+# Diffirent Useful Git Commands
 
-You can also read the [Portuguese](translation/README.pt-br.md) version.
 
 ## About it
-> Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
+> Diffirent source of Git-Commands
 
 ## Table of contents
 
