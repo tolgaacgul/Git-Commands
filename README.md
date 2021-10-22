@@ -3,7 +3,6 @@ Comandos Git
 
 ## Edited from here
 - [https://github.com/joshnh/Git-Commands](README.md)
-
 ___
 
 _A list of my commonly used Git commands_
@@ -68,6 +67,29 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+
+
+### Business Code
+
+| Command | Description |
+| ------- | --------- |
+| `git restore --staged [changed-file.html]` | added file back to the working directory |
+| `git restore [changed-file.html]` | added file back to the working directory |
+| `git show` | shows the changes made |
+| `git log` | shows the changes made all |
+| `git log --oneline` | shows the changes made all (basic) |
+| `git log -p -2` | shows the last 2 logs |
+| `git log --since=10minutes` | View the last 10 minutes |
+| `git checkout 5972cb9` |  reverts to change here=5972cb9 |
+| `git checkout master` |  reverts to master=forward|
+| `git revert 5972cb9` |  reverts to change here=5972cb9 | 
+| `git revert --soft 5972cb9` |   | 
+| `git revert --mixed 5972cb9` |   | 
+| `git revert --hard 5972cb9` |   | 
+| `git rm -r --cached` | removes the cache  | 
+
 
 
 
