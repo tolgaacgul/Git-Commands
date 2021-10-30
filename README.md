@@ -91,6 +91,8 @@ _A list of my commonly used Git commands_
 | `git rm -r --cached` | removes the cache  | 
 | `git rm --cached [file.txt]` | removes from staged (not trucked) | 
 | `git rm [file.txt]` | removes from file | 
+| `git diff --staged` | Çalışma dizini ve staged ortamı arasındaki farkları görmek için | 
+
 
 
 
