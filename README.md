@@ -89,6 +89,9 @@ _A list of my commonly used Git commands_
 | `git revert --mixed 5972cb9` |   | 
 | `git revert --hard 5972cb9` |   | 
 | `git rm -r --cached` | removes the cache  | 
+| `git rm --cached [file.txt]` | removes from staged (not trucked) | 
+| `git rm [file.txt]` | removes from file | 
+
 
 
 
