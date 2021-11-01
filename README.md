@@ -2,7 +2,9 @@ Git Commands
 ============
 
 ## Edited from here
-- [https://github.com/joshnh/Git-Commands](README.md)
+- [@joshnh](https://github.com/joshnh/Git-Commands)
+
+In the subheadings, there are ***git commands*** that I **edited** under the *business* heading.
 ___
 
 _A list of my commonly used Git commands_
