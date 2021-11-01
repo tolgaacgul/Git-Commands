@@ -2,9 +2,10 @@ Git Commands
 ============
 
 ## Edited from here
-- [@joshnh](https://github.com/joshnh/Git-Commands)
+- [@joshnh](https://github.com/joshnh/Git-Commands) 
+-- ![joshh](https://avatars.githubusercontent.com/u/831730?v=4)
 
-In the subheadings, there are ***git commands*** that I **edited** under the *business* heading.
+In the subheadings, there are ***git commands*** that I *edited* under the **business** heading.
 ___
 
 _A list of my commonly used Git commands_
@@ -76,7 +77,7 @@ _A list of my commonly used Git commands_
 ### Business Code
 
 | Command | Description |
-| ------- | --------- |
+| :--- | :---: |
 | `git restore --staged [changed-file.html]` | added file back to the working directory |
 | `git restore [changed-file.html]` | added file back to the working directory |
 | `git show` | shows the changes made |
@@ -124,24 +125,40 @@ _A list of my commonly used Git commands_
 
 ## Table of contents
 
-* [Install git](#install-git)
-* [Setting up git](#setting-up-git)
-* [Applying colour to git ](#applying-colour-to-git)
-* [Initializing a repository in an existing directory](#initializing-a-repository-in-an-existing-directory)
-* [Checking the status of your files](#checking-the-status-of-your-files)
-* [Staging files](#staging-files)
-* [Stashing files](#stashing-files)
-* [Committing files](#committing-files)
-* [Branching and merging](#branching-and-merging)
-* [Resetting](#resetting)
-* [Git remote](#git-remote)
-* [Git grep](#git-grep)
-* [Git blame](#git-blame)
-* [Git log](#git-log)
-* [Checking what you are committing](#checking-what-you-are-committing)
-* [Useful Commands](#useful-commands)
-* [Useful Alias](#useful-alias)
-* [Contributing](#contributing)
+- [Git Commands](#git-commands)
+  - [Edited from here](#edited-from-here)
+    - [Getting & Creating Projects](#getting--creating-projects)
+    - [Basic Snapshotting](#basic-snapshotting)
+    - [Branching & Merging](#branching--merging)
+    - [Sharing & Updating Projects](#sharing--updating-projects)
+    - [Inspection & Comparison](#inspection--comparison)
+    - [Business Code](#business-code)
+- [Diffirent Useful Git Commands](#diffirent-useful-git-commands)
+  - [About it](#about-it)
+  - [Table of contents](#table-of-contents)
+      - [Git](#git)
+      - [Install Git](#install-git)
+        - [Setting up git](#setting-up-git)
+        - [Applying colour to git](#applying-colour-to-git)
+        - [Initializing a repository in an existing directory](#initializing-a-repository-in-an-existing-directory)
+      - [Checking the status of your files](#checking-the-status-of-your-files)
+      - [Staging files](#staging-files)
+      - [Stashing files](#stashing-files)
+      - [Committing files](#committing-files)
+      - [Branching and merging](#branching-and-merging)
+      - [Fetching and checking out remote branches](#fetching-and-checking-out-remote-branches)
+      - [Merging branch to trunk/master](#merging-branch-to-trunkmaster)
+      - [Updating a local repository with changes from a Github repository](#updating-a-local-repository-with-changes-from-a-github-repository)
+      - [Tracking existing branch](#tracking-existing-branch)
+      - [Resetting](#resetting)
+      - [Git remote](#git-remote)
+      - [Git grep](#git-grep)
+      - [Git blame](#git-blame)
+      - [Git log](#git-log)
+      - [Checking what you are committing](#checking-what-you-are-committing)
+      - [Useful commands](#useful-commands)
+      - [Useful alias](#useful-alias)
+    - [Contributing](#contributing)
 
 #### Git
 
@@ -530,3 +547,20 @@ lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push -u origin my-new-feature`
 5. Submit a pull request - cheers!
+
+
+
+
+
+---
+
+This context was writed by info of [commonmark](https://commonmark.org/help/)
+
+```javascript
+
+console.log(commonmark)
+
+```
+
+***
+
