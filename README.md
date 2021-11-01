@@ -1,4 +1,4 @@
-Comandos Git
+Git Commands
 ============
 
 ## Edited from here
@@ -7,7 +7,7 @@ ___
 
 _A list of my commonly used Git commands_
 
---
+---
 
 ### Getting & Creating Projects
 
@@ -82,6 +82,7 @@ _A list of my commonly used Git commands_
 | `git log --oneline` | shows the changes made all (basic) |
 | `git log -p -2` | shows the last 2 logs |
 | `git log --since=10minutes` | View the last 10 minutes |
+| `git checkout -- [file-name.txt]` | Discard changes to a file 'add' before it happens |
 | `git checkout 5972cb9` |  reverts to change here=5972cb9 |
 | `git checkout master` |  reverts to master=forward|
 | `git revert 5972cb9` |  reverts to change here=5972cb9 | 
@@ -92,6 +93,7 @@ _A list of my commonly used Git commands_
 | `git rm --cached [file.txt]` | removes from staged (not trucked) | 
 | `git rm [file.txt]` | removes from file | 
 | `git diff --staged` | Çalışma dizini ve staged ortamı arasındaki farkları görmek için | 
+
 
 
 

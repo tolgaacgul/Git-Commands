@@ -1,2 +1,23 @@
 directory/
 *.xyz
+
+# img 
+*.jpg
+*.png
+img/
+
+# videos 
+*.mp4
+
+# MacOS Dosyası
+.DS_Store
+
+#files içindeki bütün klosörler izlenmez
+*files/
+
+# files içindeki example.txt haricindekiler izlenmeyecek
+!files/example.txt
+
+# dependencies
+/node_modules
+
