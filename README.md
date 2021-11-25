@@ -78,6 +78,7 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | :--- | :---: |
+| `git reset --hard HEAD` | returning to last commit |
 | `git restore --staged [changed-file.html]` | added file back to the working directory |
 | `git restore [changed-file.html]` | added file back to the working directory |
 | `git show` | shows the changes made |
